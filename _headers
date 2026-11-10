@@ -1,0 +1,5 @@
+# Cloudflare Pages: hashed build files never change — cache for a year; the rest revalidates.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
